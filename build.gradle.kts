@@ -8,7 +8,7 @@ version = "1.0-SNAPSHOT"
 kotlin {
     jvm {
         compilations.all {
-            kotlinOptions.jvmTarget = "1.8"
+            kotlinOptions.jvmTarget = "13"
         }
         withJava()
         testRuns["test"].executionTask.configure {
